@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@ body{
     background-color: darkgray;
 }
 .navigation{
-    font-family:'Calligraffitti', cursive;
+    font-family:'Aguafina Script', cursive;
     display: flex;
     justify-content: space-between;
     align-items: center;
