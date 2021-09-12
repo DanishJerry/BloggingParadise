@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+}
+.navigation{
+    font-family:Chiller;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    
+   
+}
+
+.nav-left{
+    display: flex;
+
+
+}
+.nav-left span{
+    font-size:  45px;
+    
+}
+.nav-left a{
+    text-decoration: none;
+    color: rgb(255, 88, 116);
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+    
+ }
+.nav-left ul li{
+    margin: 0 14px;
+    font-family: var(--font2);
+    list-style: none;
+    font-weight: bold;
+    
+   
+}
+.nav-left ul li a{
+   text-decoration: none;
+   color: black;
+   transition: 0.2s ease all;
+   
+}
+.nav-left ul li a:hover{
+    
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    padding: 8px;
+   position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url(../img/type2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 99%;
+    width: 99%;
+    opacity: 0.18;
+
+}
+
+.content-left{
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+        padding-right: 10px;
+    z-index: 1;
+}
+.content-right{
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px
+}
+.content-right img{
+    height: 375px;
+    width: 480px;
+    box-shadow: 8px 6px 5px rgb(102, 101, 101);
+}
+
+.home-articles{
+    margin-top: 25px;
+    padding: 15px;
+    background-color:rgb(155, 155, 155)/*rgb(248, 225, 225)*/;
+    position: relative;
+    box-shadow: 1px 5px 15px 8px rgb(129, 129, 129);
+
+    
+}
+.home-articles h2{
+    padding-bottom: 20px;
+}
+.year-box{
+    font-family: calibri;
+    position: absolute;
+    right: 130px;
+    top: 80px;
+    font-size:18px ;
+    
+}
+.year-box div{
+    margin: 10px 0;
+}
+
+.article{
+    display: flex;
+    margin: 20px;
+}
+
+.article-content{
+    align-self: center;
+    padding: 25px;
+}
+.article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer{
+    height: 50px;
+    background-color:rgb(255, 88, 116)/*rgb(255, 152, 152)*/;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer a{
+    color: black;
+}

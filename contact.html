@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Danish Tariq">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <title>Blogging Paradise</title>
+    
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto " style="margin-top: 26px; margin-bottom: 10px;">
+        <div class="nav-left">
+            <a href="/"><span>Blogging Paradise</span></a>
+            <ul>
+                <li><a href="/"> Home</a></li>
+                <li><a href="#"> About </a></li>
+                <li><a href="/contact.html"> Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input type="text" class="form-input" name="query" placeholder="Search Article ">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <div class="content">
+        <div class=" max-width-1 m-auto my-2 font2">
+            <h1>Feel Free To Contact Us</h1>
+            <div class="contact-form">
+                <div class="contact-box">
+                    <legend>Name: </legend>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="contact-box">
+                    <legend>Email Address: </legend>
+                    <input type="email" id="email" placeholder="Your Email Address">
+                </div>
+                <div class="contact-box">
+                    <legend>Subject: </legend>
+                    <input type="tel" id="sub" placeholder="Subject">
+                </div>
+                <div class="contact-box">
+                    <legend>Message: </legend>
+                    <textarea name="" placeholder="Message" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact-box">
+                    <button class="btn" onclick="saveData()" id="butn">Send Message </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p> Copyright &copy; ParadiseforBloggers.com | All rights are preserved</p>
+        <a href="https://www.linkedIn.com/Danish-Tariq">Credits: Danish Tariq</a>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

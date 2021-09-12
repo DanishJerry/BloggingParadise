@@ -1,0 +1,19 @@
+.content{
+    height: 100vh;
+    display: flex;
+    padding: 8px;
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 5px;
+}
+.content::after{
+    content: "";
+    background-image: url(../img/type2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    opacity: 0.18;
+    z-index: -1;
+
+}

@@ -1,0 +1,89 @@
+@media screen and (max-width: 1500px){
+   .navigation{
+       flex-direction: column;
+   } 
+   .nav-right{
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+   }
+   .nav-left{
+       flex-direction: column;
+       text-align: center;
+   }
+   .nav-left ul{
+       padding-top: 16px;
+   }
+   .post-img{
+    height: auto;
+}
+   
+}
+@media screen and (max-width: 1300px){
+    .content-right{
+        display: none;
+    }
+    .year-box{
+        display: flex;
+        top: 25px;
+        font-size:15px ;
+      
+}
+.year-box div{
+    padding: 0 3px;
+    margin: 0px;
+}
+.year-box h3{
+    padding-right: 8px;
+    margin: -4px;
+}
+.contact-box input, textarea{
+    width: 40vw;
+}
+.row{
+    flex-direction: column;
+}
+.article img{
+    width: 35vw;
+}
+
+.social{
+    padding: 0px;
+}
+}
+@media screen and (max-width: 1100px){
+    .article{
+        flex-direction: column;
+    }
+    .article-img{
+        text-align: center;
+    }
+    .article img{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 900px){
+    .contact-box input, textarea{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .year-box{
+        right: 10px;
+        font-size: 12px;
+    }
+    .home-articles h2{
+        font-size: 20px;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .content h1{
+        font-size: 25px;
+        
+    }
+    .contact-box input, textarea{
+        width: 66vw;
+    }
+
+}
